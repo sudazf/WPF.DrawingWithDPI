@@ -71,8 +71,8 @@ namespace WPF.Drawing.Demo.DemoViews
             var renderWidth = ImageHolder.ActualWidth * SystemInfo.Dpi.DpiScale;
             var renderHeight = ImageHolder.ActualHeight * SystemInfo.Dpi.DpiScale;
 
-            //_drawHelper.UpdateDrawers(renderWidth, renderHeight);
-            _drawHelper.UpdateDrawers(ImageHolder.ActualWidth, ImageHolder.ActualHeight);
+            _drawHelper.UpdateDrawers(renderWidth, renderHeight);
+            //_drawHelper.UpdateDrawers(ImageHolder.ActualWidth, ImageHolder.ActualHeight);
         }
 
         private void OnAxesSourceChanged(object sender, BitmapSource source)
