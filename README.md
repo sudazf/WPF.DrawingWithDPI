@@ -11,7 +11,7 @@ This is high quality image. (Due to image upload problem, actually, runing in ap
 ![Not Blurry](https://user-images.githubusercontent.com/3366672/187869673-f6993bba-15d6-4c27-8d3d-0bef75573fc8.png)
 
 Switch to blurry or high quality iamge by commit this code:
-```
+```cs
 private void UpdateDrawSource()
 {
     //绘图需要按 DPI 比例调整，否则达不到高清效果
