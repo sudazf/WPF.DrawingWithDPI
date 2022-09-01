@@ -10,7 +10,9 @@ This is blurry image:
 This is high quality image. (Due to image upload problem, actually, runing in application is more clearly than this).
 ![Not Blurry](https://user-images.githubusercontent.com/3366672/187869673-f6993bba-15d6-4c27-8d3d-0bef75573fc8.png)
 
-Switch to blurry image by uncomment last row code:
+1. Using mouse left button dragging to zoom in/out.
+
+2. Switch to blurry image by uncomment last row code:
 ```cs
 private void UpdateDrawSource()
 {
