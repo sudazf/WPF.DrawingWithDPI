@@ -3,6 +3,7 @@
 Welcome to the WPF.DrawingWithDPI
 
 WPF draw high resolution image.
+
 This is blurry image:
 ![Blurry](https://user-images.githubusercontent.com/3366672/187870067-456efb18-aeff-4763-998b-1f4ada274696.png)
 
