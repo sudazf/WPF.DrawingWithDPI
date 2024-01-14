@@ -39,7 +39,7 @@ namespace WPF.Drawing.Demo.Drawers
             var width = 0.4 / CoordinateInfo.LogicScaleX;
             var height = 0.3 / CoordinateInfo.LogicScaleY;
 
-            DrawRectangle(phyX, phyY, (int)width, (int)height, Colors.Black);
+            DrawRectangle(phyX, phyY, (int)width + 1, (int)height + 1, Colors.Black);
             FillRectangle(phyX, phyY, (int)width, (int)height, Colors.DeepPink, new Thickness(0.5,0.5,0,0));
 
             var calcFontSize = 20 / (CoordinateInfo.XLogicMax - CoordinateInfo.XLogicMin);

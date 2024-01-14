@@ -132,7 +132,7 @@ namespace WPF.Drawing.Demo.Drawers
             {
                 g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
                 g.FillRectangle(new SolidBrush(System.Drawing.Color.FromArgb(color.A, color.R, color.G, color.B)),
-                    x1 + (float)thickness.Left, y1 + (float)thickness.Top, width - (float)thickness.Left, height - (float)thickness.Top);
+                    x1 + (float)thickness.Left, y1 + (float)thickness.Top, width, height);
             }
 
             RenderBitmap.AddDirtyRect(new Int32Rect(0, 0, RenderBitmap.PixelWidth, RenderBitmap.PixelHeight));
